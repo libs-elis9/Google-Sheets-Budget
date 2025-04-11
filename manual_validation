@@ -4,7 +4,7 @@ function main() {
   // get the rules based on the adjacent column
   // apply the rules
 
-  var spreadsheet = SpreadsheetApp.openById(""); // input the Id of the spreadsheet you are working with
+  var spreadsheet = SpreadsheetApp.openById(""); // input the ID of the spreadsheet you are working with
   var targetRange = spreadsheet.getRangeByName("Category");
   var ranges = getRanges(spreadsheet);
 
